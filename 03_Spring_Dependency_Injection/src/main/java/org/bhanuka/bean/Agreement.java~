@@ -1,8 +1,0 @@
-package org.bhanuka.bean;
-
-import org.springframework.beans.factory.annotation.Qualifier;
-
-@Qualifier("girl")
-public interface Agreement {
-    public void chat();
-}

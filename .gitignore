@@ -1,3 +1,24 @@
-.idea
-.java~
+# IntelliJ IDEA
+.idea/
 *.iml
+
+# Java backup files
+*~
+01_Spring_Core/*.java~
+02_Spring_Bean_Life_Cycle/*.java~
+03_Spring_Dependency_Injection/*.java~
+04_FulllMode_vs_LightMode/*.java~
+05_Configuration/*.java~
+
+# Compiled output
+out/
+target/
+*.class
+
+# Maven/Gradle
+.mvn/
+.gradle/
+build/
+
+# Log files
+*.log

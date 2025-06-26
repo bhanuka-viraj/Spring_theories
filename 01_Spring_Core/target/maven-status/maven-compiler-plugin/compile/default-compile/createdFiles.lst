@@ -1,7 +1,0 @@
-org\example\bean\TestBean1.class
-org\example\bean\TestBean2.class
-org\example\AppInitializer.class
-org\example\bean\SpringBean.class
-org\example\bean\TestBean3.class
-org\example\config\AppConfig.class
-org\example\bean\MyConnection.class
