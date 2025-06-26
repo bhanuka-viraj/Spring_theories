@@ -1,0 +1,4 @@
+package org.bhanuka.beans;
+
+public class SpringBeanOne {
+}
