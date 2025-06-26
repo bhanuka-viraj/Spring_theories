@@ -16,8 +16,10 @@ import org.springframework.context.annotation.Import;
 * and then we can add just this config to the spring context*/
 
 public class AppConfig {
-    @Bean
-    public E e (){
-        return new E();
-    }
+//    @Bean
+//    public E e (){
+//        return new E();
+//    }
+
+    //Added @Component annotation only for E so the it will be scanned as a bean during the component scan
 }
