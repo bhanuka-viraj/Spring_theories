@@ -21,8 +21,8 @@ public class Main {
         MyConnection m1 = context.getBean(MyConnection.class);
         System.out.println(m1);
 
-        context.registerShutdownHook();
-//        context.close();
+        context.registerShutdownHook(); // Registers a JVM shutdown hook to automatically close the ApplicationContext when the JVM terminates (e.g., on program exit or Ctrl+C).
+//        context.close();  //Explicitly closes the ApplicationContext, shutting it down immediately and releasing resources.
 
     }
 }
