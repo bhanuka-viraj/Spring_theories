@@ -11,6 +11,11 @@ public class HelloController {
         return "Get mappping";
     }
 
+    @GetMapping("/two")
+    public String sayHelloTwo() {
+        return "Get mappping two";
+    }
+
     @PostMapping
     public String sayHelloPost() {
         return "Post mappping";
