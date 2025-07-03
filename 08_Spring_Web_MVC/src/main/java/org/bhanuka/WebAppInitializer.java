@@ -41,7 +41,7 @@ public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServlet
 
 
     /*
-            ---------- DispatcherServlet -----------
+            ---------- DispatcherServlet (Front controller design pattern) -----------
 
         DispatcherServlet acts as a front controller, handling all incoming HTTP requests and routing them to
         the appropriate Spring MVC controllers. It's the central component for managing the request-response
