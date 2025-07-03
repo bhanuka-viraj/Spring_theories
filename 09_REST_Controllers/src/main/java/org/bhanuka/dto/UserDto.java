@@ -5,14 +5,16 @@ public class UserDto {
     private String id;
     private String name;
     private String age;
+    private AddressDto address;
 
     public UserDto() {
     }
 
-    public UserDto(String id, String name, String age) {
+    public UserDto(String id, String name, String age, AddressDto address) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.address = address;
     }
 
     public String getId() {
@@ -38,4 +40,13 @@ public class UserDto {
     public void setAge(String age) {
         this.age = age;
     }
+
+    public AddressDto getAddress() {
+        return address;
+    }
+
+    public void setAddress(AddressDto address) {
+        this.address = address;
+    }
+
 }
